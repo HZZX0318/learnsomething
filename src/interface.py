@@ -1,13 +1,14 @@
 class Exchange:
     # implement this!
-
+    trades=[]
     def __init__(self, initialBalance):
-        """Initial Balance is the amount that each account should start with."""
-        pass
+        self.balance = initialBalance
+        return None
 
     def add_trade(self, trade):
         """Adds a trade to the exchange (validation required)
         and returns a match if required. It is up to you on how you will
         handle representing trades. """
-        raise NotImplementedError
+        self.trade = trade
+        trades.append(trade)
 
